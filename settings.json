@@ -5,6 +5,7 @@
   "editor.fontLigatures": true,
   "editor.wordWrap": "on",
   "editor.minimap.enabled": false,
+  "editor.tabSize": 2,
   "editor.tokenColorCustomizations": {
     "textMateRules": [
       {
@@ -31,7 +32,7 @@
   "editor.codeActionsOnSave": {
     "source.fixAll.eslint": true,
     "source.fixAll.tslint": true,
-    "source.organizeImports": true
+    "source.organizeImports": false
   },
   "eslint.alwaysShowStatus": true,
   //terminal
@@ -63,5 +64,10 @@
     "terminal.ansiYellow": "#FAC03B"
   },
   "terminal.integrated.defaultProfile.windows": "Git Bash",
-  "tabnine.experimentalAutoImports": true
+  "tabnine.experimentalAutoImports": true,
+  "tabnine.receiveBetaChannelUpdates": true,
+  "vsicons.dontShowNewVersionMessage": true,
+  "redhat.telemetry.enabled": true,
+  "diffEditor.ignoreTrimWhitespace": false,
+  "security.workspace.trust.untrustedFiles": "open"
 }
