@@ -1,0 +1,52 @@
+{
+  "extensions": [
+    {
+      "name": "Live Server",
+      "author": "Ritwik Dey"
+    },
+    {
+      "name": "ES Lint",
+      "author": "Dirk Baeumer"
+    },
+    {
+      "name": "Prettier - Code Formatter",
+      "author": "Esben Petersen"
+    },
+    {
+      "name": "vscode-icons",
+      "author": "VSCode Icons Team"
+    },
+    {
+      "name": "Path Autocomplete",
+      "author": "Mihai Vilcu"
+    },
+    {
+      "name": "Turbo Console Log",
+      "author": "ChakrounAnas"
+    },
+    {
+      "name": "ES7 React/Redux/GraphQL/React-Native Snippets",
+      "author": "Dsznajder"
+    },
+    {
+      "name": "Dracula Official",
+      "author": "Dracula Theme"
+    },
+    {
+      "name": "Auto Rename Tag",
+      "author": "Jun Han"
+    },
+    {
+      "name": "Andromeda",
+      "author": "Eliver Lara"
+    },
+    {
+      "name": "Emoji Snippets",
+      "author": "Devzstudio"
+    },
+    {
+      "name": "Community Material Theme",
+      "author": "Mattia Astorino"
+    }
+  ]
+}
