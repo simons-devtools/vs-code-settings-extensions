@@ -1,5 +1,5 @@
 {
-  // editor
+  // editor point
   "editor.fontSize": 16,
   "editor.fontFamily": "Consolas, 'Courier New', monospace",
   "editor.fontLigatures": true,
@@ -16,7 +16,7 @@
       }
     ]
   },
-  // cursor
+  // cursor point
   "editor.cursorSmoothCaretAnimation": "on",
   "editor.cursorBlinking": "expand",
   // config related to code formatting
@@ -34,7 +34,7 @@
     "source.fixAll.tslint": true,
     "source.organizeImports": false
   },
-  //terminal
+  //terminal point
   "terminal.integrated.fontSize": 14,
   "terminal.integrated.fontWeight": "normal",
   "terminal.integrated.fontFamily": "Consolas, 'Courier New', monospace",
