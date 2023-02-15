@@ -1,1 +1,1 @@
-# vs-code settings & extensions.
+# vscode setting.
