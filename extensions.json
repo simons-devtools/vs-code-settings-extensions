@@ -1,5 +1,5 @@
 {
-  "vscodeExtentions": [
+  "$schema": [
     {
       "name": "Auto Close Tag",
       "author": "Jun Han"
@@ -71,6 +71,18 @@
     {
       "name": "vscode-icons",
       "author": "VSCode Icons Team"
+    },
+    {
+      "name": "Git Cheatsheet",
+      "author": "Dzhavat Ushev"
+    },
+    {
+      "name": "CSS Initial Value",
+      "author": "Dzhavat Ushev"
+    },
+    {
+      "name": "CSS Flexbox Cheatsheet",
+      "author": "Dzhavat Ushev"
     },
     {
       "name": "vacode-styled-components",
