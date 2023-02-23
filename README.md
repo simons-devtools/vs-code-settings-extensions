@@ -1,1 +1,1 @@
-# visual studio code settings.
+# vscode settings and extentions.
