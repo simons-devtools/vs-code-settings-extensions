@@ -1,11 +1,12 @@
 {
-  // editor point
+  // editor
   "editor.fontSize": 16,
   "editor.fontFamily": "Consolas, 'Courier New', monospace",
   "editor.fontLigatures": true,
   "editor.wordWrap": "on",
   "editor.minimap.enabled": false,
   "editor.tabSize": 2,
+  "editor.accessibilitySupport": "on",
   "editor.tokenColorCustomizations": {
     "textMateRules": [
       {
@@ -16,29 +17,38 @@
       }
     ]
   },
-  // cursor point
+  // cursor
   "editor.cursorSmoothCaretAnimation": "on",
   "editor.cursorBlinking": "expand",
   // config related to code formatting
   "editor.defaultFormatter": "esbenp.prettier-vscode",
   "editor.formatOnSave": true,
+  "[html]": {
+    "editor.formatOnSave": false,
+    "editor.defaultFormatter": "vscode.html-language-features"
+  },
   "[javascript]": {
-    "editor.formatOnSave": false
+    "editor.formatOnSave": false,
+    "editor.defaultFormatter": "vscode.typescript-language-features"
   },
   "[javascriptreact]": {
     "editor.formatOnSave": false,
-    "editor.defaultFormatter": null
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
   "editor.codeActionsOnSave": {
     "source.fixAll.eslint": true,
     "source.fixAll.tslint": true,
     "source.organizeImports": false
   },
-  //terminal point
+  //terminal
+  "workbench.iconTheme": "vscode-icons",
+  "workbench.colorTheme": "Default Dark+ Experimental",
+  "workbench.startupEditor": "none",
+  "workbench.editor.enablePreview": false,
   "terminal.integrated.fontSize": 14,
   "terminal.integrated.fontWeight": "normal",
   "terminal.integrated.fontFamily": "Consolas, 'Courier New', monospace",
-  "workbench.iconTheme": "vscode-icons",
+  "terminal.integrated.defaultProfile.windows": "Git Bash",
   // terminal customization
   "workbench.colorCustomizations": {
     "terminal.background": "#1D2021",
@@ -62,9 +72,9 @@
     "terminal.ansiWhite": "#A89984",
     "terminal.ansiYellow": "#FAC03B"
   },
-  "workbench.colorTheme": "Default Dark+",
-  "terminal.integrated.defaultProfile.windows": "Git Bash",
-  "[jsonc]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  }
+  "tabnine.experimentalAutoImports": true,
+  "tabnine.receiveBetaChannelUpdates": true,
+  "redhat.telemetry.enabled": true,
+  "diffEditor.ignoreTrimWhitespace": false,
+  "security.workspace.trust.untrustedFiles": "open"
 }
