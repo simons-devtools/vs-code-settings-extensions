@@ -42,7 +42,6 @@
   },
   //terminal
   "workbench.iconTheme": "vscode-icons",
-  "workbench.colorTheme": "Default Dark+",
   "workbench.startupEditor": "none",
   "workbench.editor.enablePreview": false,
   "terminal.integrated.fontSize": 14,
@@ -76,5 +75,8 @@
   "diffEditor.ignoreTrimWhitespace": false,
   "security.workspace.trust.untrustedFiles": "open",
   "extensions.autoUpdate": "onlyEnabledExtensions",
-  "vsicons.dontShowNewVersionMessage": true
+  "vsicons.dontShowNewVersionMessage": true,
+  "[xml]": {
+    "editor.defaultFormatter": "DotJoshJohnson.xml"
+  }
 }
